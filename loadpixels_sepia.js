@@ -16,7 +16,7 @@ function setup() {
     a = [0,1]
     var rand = a[Math.floor(Math.random() * a.length)];
     if (rand) {
-    pixels[i] = pixels[i-200];
+    pixels[i] = pixels[i-1];
     // print(pixels[i]);
     }
   }
