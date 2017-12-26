@@ -1,14 +1,10 @@
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(100, 100);
+    for (var i = 0; i < 100; i = i + 0.25) {
+        rect(random(100), random(100), 1, 1);
+    }
 }
 
 function draw() {
-    background(127);
-    noStroke();
-    for (var i = 0; i < height; i += 20) {
-      fill(129, 206, 15);
-      rect(0, i, random(width), 10);
-      fill(255);
-      rect(i, 0, random(width), height);
-    }
+
 }
