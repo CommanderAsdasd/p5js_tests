@@ -8,7 +8,10 @@ uniform float time;
 uniform vec2 mouse;
 uniform vec2 resolution;
 
-float terrain(in vec2 p)
+float terrain(in vec2 p) {
+    p *= 0.2;
+    
+}
 
 vec3 normal(in vec2 p)
 
