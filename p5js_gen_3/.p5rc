@@ -1,0 +1,8 @@
+{
+  "name": "p5js_gen_3",
+  "projects": [
+    "sketch.js",
+    "video_glitch.js",
+    "figures"
+  ]
+}
