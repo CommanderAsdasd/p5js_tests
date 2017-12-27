@@ -1,0 +1,7 @@
+{
+  "name": "video",
+  "projects": [
+    "video_record",
+    "change_video"
+  ]
+}
