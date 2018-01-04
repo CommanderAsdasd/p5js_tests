@@ -1,4 +1,7 @@
 {
   "name": "p5js_tests",
-  "projects": []
+  "projects": [
+    "form_sketch",
+    "pixel-pattern"
+  ]
 }
